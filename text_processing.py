@@ -66,10 +66,10 @@ def no_vowels(input_string):
             ''W lv Pythn!'
     """
     no_vowel_string = ""
-    vowel_list = ['a', 'e', 'i', 'o', 'u']
+    vowel_string = "aeiou"
 
     for w in input_string:
-        if w in vowel_list:
+        if w in vowel_string or w in vowel_string.upper():
             continue
         no_vowel_string += w
 
